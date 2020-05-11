@@ -55,7 +55,7 @@
     "@loopback/service-proxy": "^2.0.4",
     "@types/request": "^2.48.4",
     "agora-access-token": "^2.0.4",
-    "axios": "^0.16.2",
+    "axios": "^0.18.1",
     "dotenv": "^8.2.0",
     "request": "^2.88.2",
     "tslib": "^1.10.0"
