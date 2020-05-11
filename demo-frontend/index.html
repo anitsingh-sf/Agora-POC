@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Call Demo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div>
+        <label for="uid">User ID</label> <br>
+        <input type="number" id="userId">
+    </div>
+
+    <div>
+        <label for="action">Enter existing channel name to join a channel or a new name to create channel.</label> <br>
+        <input type="text" id="channelName">
+    </div>
+
+    <button id="load">Submit</button>
+
+    <h4>My Feed :</h4>
+    <div id="me">
+
+    </div>
+
+    <h4>Remote Feeds :</h4>
+    <div id="remote-container">
+
+    </div>
+    
+    <script src="scripts/AgoraRTCSDK.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
